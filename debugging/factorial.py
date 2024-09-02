@@ -15,7 +15,7 @@ if len(sys.argv) != 2:
 try:
     number = int(sys.argv[1])
     if number < 0:
-        raise ValueError("Negative numbers are not allowed")
+        raise ValueError("Negative numbers are a nono")
 except ValueError as e:
     print(f"Error: {e}")
     sys.exit(1)
